@@ -1,0 +1,23 @@
+<div class='card'>
+    <div class='card-header'>
+      {{pageTitle}}
+    </div>
+
+      <div class='table-responsive'>
+        <table class='table'>
+          <tbody>
+            <tr *ngFor='let animal of animals'>  
+              <td>        
+                    <tr>Old MacDonald had a farm, E I E I O,</tr>
+                    <tr>And on his farm he had a {{animal.animalName}}, E I E I O.</tr>     
+                    <tr>With a {{animal.animalSound}} {{animal.animalSound}} here and a {{animal.animalSound}} {{animal.animalSound}} there,</tr>
+                    <tr>Here a {{animal.animalSound}}, there a {{animal.animalSound}}, ev'rywhere a {{animal.animalSound}} {{animal.animalSound}}.</tr>
+                    <tr>Old MacDonald had a farm, E I E I O.</tr>
+                </td>
+            </tr>    
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  

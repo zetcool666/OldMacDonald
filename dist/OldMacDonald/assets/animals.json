@@ -1,0 +1,27 @@
+[
+    {
+      "animalId": 1,
+      "animalName": "Cow",
+      "animalSound": "moo"
+    },
+    {
+        "animalId": 2,
+        "animalName": "Dog",
+        "animalSound": "woof"
+    },
+    {
+        "animalId": 3,
+        "animalName": "Duck",
+        "animalSound": "quack"
+    },
+    {
+        "animalId": 4,
+        "animalName": "Cat",
+        "animalSound": "meow"
+    },
+    {
+        "animalId": 5,
+        "animalName": "Rooster",
+        "animalSound": "cock-a-doodle-do"
+    }
+  ]

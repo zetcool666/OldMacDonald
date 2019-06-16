@@ -1,0 +1,40 @@
+<div class='card'>
+    <div class='card-header'>
+      {{pageTitle}}
+    </div>
+    <div class='row'>
+
+        <div class='col-md-4'>Enter new animal to your custom song:</div>
+        <div class='col-md-3'>
+          Animal Name
+          <input type='text' 
+          [(ngModel)]='animal.animalName'/>
+        </div>
+        <div class='col-md-3'>
+          Animal Sound
+          <input type='text' 
+          [(ngModel)]='animal.animalSound'/>
+        </div>
+        <div class='col-md-2'>
+
+        </div>
+    </div>
+
+      <div class='table-responsive' >
+        <table class='table'>
+          <tbody>
+            <tr>  
+              <td>        
+                    <tr>Old MacDonald had a farm, E I E I O,</tr>
+                    <tr>And on his farm he had a {{animal.animalName}}, E I E I O.</tr>     
+                    <tr>With a {{animal.animalSound}} {{animal.animalSound}} here and a {{animal.animalSound}} {{animal.animalSound}} there,</tr>
+                    <tr>Here a {{animal.animalSound}}, there a {{animal.animalSound}}, ev'rywhere a {{animal.animalSound}} {{animal.animalSound}}.</tr>
+                    <tr>Old MacDonald had a farm, E I E I O.</tr>
+                </td>
+            </tr>    
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  

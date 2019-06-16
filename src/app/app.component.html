@@ -1,0 +1,20 @@
+
+<div style="text-align:center">
+  
+    <title *ngIf="title" >{{ title }}</title>
+  <h1>
+    {{ pageTitle }}!
+  </h1>
+</div>
+<nav class='navbar navbar-expand navbar-light bg-light'>
+<a class='navbar-brand'>Choose what to sing:</a>
+  <ul class='nav nav-pills'>
+    <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/song']">Original song</a></li>
+    <li><a class='nav-link' routerLinkActive='active' [routerLink]="['/custom']">Custom song</a></li>
+  </ul>
+</nav>
+<div class='container'>
+<router-outlet></router-outlet>
+</div>
+`
+
